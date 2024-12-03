@@ -1,3 +1,5 @@
+These are some APIs written here. If you check the profileRoute.js file, you will find all the profile-related tasks implemented. If you need any help understanding it, feel free to reach out to me.
+
 Register User Curl 
 
 curl --location 'https://hackathon-task.onrender.com/api/user/register' \
