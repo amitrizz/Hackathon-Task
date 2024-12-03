@@ -1,6 +1,6 @@
 Register User Curl 
 
-curl --location 'http://localhost:8000/api/user/register' \
+curl --location 'https://hackathon-task.onrender.com/api/user/register' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "firstname":"amit",
@@ -12,7 +12,7 @@ curl --location 'http://localhost:8000/api/user/register' \
 }'
 
 Login User Curl
-curl --location 'http://localhost:8000/api/user/login' \
+curl --location 'https://hackathon-task.onrender.com/api/user/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "email":"amitsgar121001@gmail.com",
@@ -21,21 +21,21 @@ curl --location 'http://localhost:8000/api/user/login' \
 
 logged User 
 
-curl --location 'http://localhost:8000/api/user/logged-user' \
+curl --location 'https://hackathon-task.onrender.com/api/user/logged-user' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlYmQ2Mjg4ZmQ2NTRmMDFmZDI5YWEiLCJpYXQiOjE3MzMyMTM2MjQsImV4cCI6MTczMzMwMDAyNH0.30OaqoCmuu8pTD-67PTDhW5Mdx_3SZiumMdKiCoeFyc' \
 --data ''
 
 
 Complete User Profile Curl 
 
-curl --location 'http://localhost:8000/api/profile/get-user-info' \
+curl --location 'https://hackathon-task.onrender.com/api/profile/get-user-info' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlYmQ2Mjg4ZmQ2NTRmMDFmZDI5YWEiLCJpYXQiOjE3MzMyMTM2MjQsImV4cCI6MTczMzMwMDAyNH0.30OaqoCmuu8pTD-67PTDhW5Mdx_3SZiumMdKiCoeFyc' \
 --data ''
 
 
 
 Add Education Data Curl
-curl --location 'http://localhost:8000/api/profile/add-education' \
+curl --location 'https://hackathon-task.onrender.com/api/profile/add-education' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlYmQ2Mjg4ZmQ2NTRmMDFmZDI5YWEiLCJpYXQiOjE3MzMyMTM2MjQsImV4cCI6MTczMzMwMDAyNH0.30OaqoCmuu8pTD-67PTDhW5Mdx_3SZiumMdKiCoeFyc' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -47,7 +47,7 @@ curl --location 'http://localhost:8000/api/profile/add-education' \
 }
 
 Add Experience Data Curl 
-curl --location 'http://localhost:8000/api/profile/add-experience' \
+curl --location 'https://hackathon-task.onrender.com/api/profile/add-experience' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlYmQ2Mjg4ZmQ2NTRmMDFmZDI5YWEiLCJpYXQiOjE3MzMyMTM2MjQsImV4cCI6MTczMzMwMDAyNH0.30OaqoCmuu8pTD-67PTDhW5Mdx_3SZiumMdKiCoeFyc' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -62,7 +62,7 @@ curl --location 'http://localhost:8000/api/profile/add-experience' \
 '
 
 Update Data Curl 
-curl --location 'http://localhost:8000/api/profile/add-education' \
+curl --location 'https://hackathon-task.onrender.com/api/profile/add-education' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlYmQ2Mjg4ZmQ2NTRmMDFmZDI5YWEiLCJpYXQiOjE3MzMyMTM2MjQsImV4cCI6MTczMzMwMDAyNH0.30OaqoCmuu8pTD-67PTDhW5Mdx_3SZiumMdKiCoeFyc' \
 --header 'Content-Type: application/json' \
 --data '{
