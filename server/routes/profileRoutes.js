@@ -1,6 +1,6 @@
 import express from 'express';
 const profileAuth = express.Router();
-import profileController from '../controllers/ProfileController.js';
+import profileController from '../controllers/profileController.js';
 
 import checkUserAuthentication from '../middleware/auth-checkAuthentication.js'
 
