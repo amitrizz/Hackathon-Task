@@ -11,7 +11,10 @@ curl --location 'https://hackathon-task.onrender.com/api/user/register' \
     "password_confirmation":"viewer@123"
 }'
 
+
+
 Login User Curl
+
 curl --location 'https://hackathon-task.onrender.com/api/user/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -19,11 +22,17 @@ curl --location 'https://hackathon-task.onrender.com/api/user/login' \
     "password":"viewer@123"
 }'
 
+
+
+
 logged User 
 
 curl --location 'https://hackathon-task.onrender.com/api/user/logged-user' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlYmQ2Mjg4ZmQ2NTRmMDFmZDI5YWEiLCJpYXQiOjE3MzMyMTM2MjQsImV4cCI6MTczMzMwMDAyNH0.30OaqoCmuu8pTD-67PTDhW5Mdx_3SZiumMdKiCoeFyc' \
 --data ''
+
+
+
 
 
 Complete User Profile Curl 
@@ -34,7 +43,10 @@ curl --location 'https://hackathon-task.onrender.com/api/profile/get-user-info' 
 
 
 
+
+
 Add Education Data Curl
+
 curl --location 'https://hackathon-task.onrender.com/api/profile/add-education' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlYmQ2Mjg4ZmQ2NTRmMDFmZDI5YWEiLCJpYXQiOjE3MzMyMTM2MjQsImV4cCI6MTczMzMwMDAyNH0.30OaqoCmuu8pTD-67PTDhW5Mdx_3SZiumMdKiCoeFyc' \
 --header 'Content-Type: application/json' \
@@ -46,7 +58,10 @@ curl --location 'https://hackathon-task.onrender.com/api/profile/add-education' 
     "enddate": "2024-11-20"
 }
 
+
+
 Add Experience Data Curl 
+
 curl --location 'https://hackathon-task.onrender.com/api/profile/add-experience' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlYmQ2Mjg4ZmQ2NTRmMDFmZDI5YWEiLCJpYXQiOjE3MzMyMTM2MjQsImV4cCI6MTczMzMwMDAyNH0.30OaqoCmuu8pTD-67PTDhW5Mdx_3SZiumMdKiCoeFyc' \
 --header 'Content-Type: application/json' \
@@ -61,7 +76,11 @@ curl --location 'https://hackathon-task.onrender.com/api/profile/add-experience'
 }
 '
 
+
+
+
 Update Data Curl 
+
 curl --location 'https://hackathon-task.onrender.com/api/profile/add-education' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlYmQ2Mjg4ZmQ2NTRmMDFmZDI5YWEiLCJpYXQiOjE3MzMyMTM2MjQsImV4cCI6MTczMzMwMDAyNH0.30OaqoCmuu8pTD-67PTDhW5Mdx_3SZiumMdKiCoeFyc' \
 --header 'Content-Type: application/json' \
